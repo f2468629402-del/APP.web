@@ -30,7 +30,7 @@ jobs:
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /feng-app-showcase
+          NEXT_PUBLIC_BASE_PATH: /APP.web
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
