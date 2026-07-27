@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "handmade-pattern",
+    "name": "手作图案助手",
+    "englishName": "Handmade Magic World",
+    "eyebrow": "把一张图片，变成专属图纸",
+    "description": "进入卡通手工世界，用一张图片召唤专属图纸。将灵感变成可执行的手作步骤，让每一次创作都更轻松、更有趣。",
+    "category": "手作 · 图案生成",
+    "version": "1.0.0",
+    "color": "#f8dfe4",
+    "accent": "#25252c",
+    "features": ["图片生成拼豆、钉子画与魔法矿区图案", "展示像素网格、材料清单与 RGB 色号", "从灵感图片到可动手制作的完整图纸"],
+    "stack": ["移动端 UI", "图像处理", "像素图案生成"],
+    "screens": ["/ui/screen-1.png", "/ui/screen-2.png", "/ui/screen-3.png", "/ui/screen-4.png", "/ui/screen-5.png", "/ui/screen-6.png", "/ui/screen-7.png"],
+    "apk": "/downloads/handmade-pattern.apk",
+    "apkSize": "47 MB",
+    "github": "https://github.com/yourname/handmade-pattern",
+    "demo": "https://handmade-magic-world.example.com"
+  }
+]

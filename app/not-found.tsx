@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function NotFound() { return <main className="flex min-h-screen items-center justify-center text-center"><div><p className="text-xs uppercase tracking-[.2em] text-[#77736b]">404</p><h1 className="serif mt-4 text-6xl italic">Not found.</h1><Link href="/apps" className="mt-8 inline-block underline underline-offset-4">Back to all apps →</Link></div></main> }

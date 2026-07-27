@@ -1,0 +1,4 @@
+'use client'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+export function Header() { const path = usePathname(); return <header className="fixed top-0 z-50 w-full border-b hairline bg-[#f7f6f2]/85 backdrop-blur-xl"><div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6 lg:px-10"><Link href="/" className="flex items-center gap-3 text-sm font-semibold tracking-[.24em]"><span className="flex h-7 w-7 items-center justify-center rounded-full bg-[#11110f] text-[11px] text-[#dfe9a5]">A</span>ATELIER</Link><nav className="flex items-center gap-8 text-sm text-[#77736b]"><Link className={path === '/' ? 'text-[#11110f]' : ''} href="/">首页</Link><Link className={path.startsWith('/apps') ? 'text-[#11110f]' : ''} href="/apps">所有 APP</Link></nav><a href="mailto:hello@atelier.apps" className="hidden text-xs uppercase tracking-[.18em] text-[#77736b] transition hover:text-[#11110f] sm:block">Say hello ↗</a></div></header> }
